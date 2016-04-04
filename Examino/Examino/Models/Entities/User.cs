@@ -19,7 +19,7 @@ namespace Examino.Models.Entities
 
         public string ApplicationUserId{get; set ;}
 
-        [ForeignKey("ApplicationUserId")]
+     
         public virtual ApplicationUser user { get; set; }
 
         public virtual ICollection<Inscription> Inscriptions { get; set; }

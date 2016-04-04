@@ -12,10 +12,10 @@ namespace Examino.Models.Entities
         [Key]
         public int Id { get; set; }
 
-        [Required]
+      
         public string LabelAnswer { get; set; }
 
-        [Required]
+       
         public bool Answer { get; set; }
 
         public string PicturePath { get; set; }
@@ -23,7 +23,7 @@ namespace Examino.Models.Entities
         public int QuestionModelId { get; set; }
 
 
-        [ForeignKey("QuestionModelId")]
+      
         public virtual QuestionModel QuestionModel { get; set; }
 
     }

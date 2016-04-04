@@ -12,17 +12,17 @@ namespace Examino.Models.Entities
         [Key]
         public int Id { get; set; }
 
-        [Required]
+      
         public int UserQuizId { get; set; }
 
-        [Required]
+        
         public int AnswerModelId { get; set; }
 
         
-        [ForeignKey("UserQuizId")]
+  
         public virtual UserQuiz UserQuiz { get; set; }
 
-        [ForeignKey("AnswerModelId")]
+     
         public virtual AnswerModel AnswerModel { get; set; }
 
         public string LabelAnswer { get; set; }

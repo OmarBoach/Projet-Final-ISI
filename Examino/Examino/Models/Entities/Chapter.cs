@@ -22,10 +22,10 @@ namespace Examino.Models.Entities
 
 
         // proprietés de navigation
-        [ForeignKey("QuizId")]
+     
         public virtual QuizModel QuizFormatif { get; set; }
 
-        [ForeignKey("CourseId")]
+ 
         public virtual Course Course { get; set; }
 
         public virtual ICollection<File> Files { get; set; }

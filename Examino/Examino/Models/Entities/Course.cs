@@ -22,7 +22,6 @@ namespace Examino.Models.Entities
 
         public int QuizId { get; set; }  // on sauvegarde le Id du quiz final
 
-        [ForeignKey("QuizId")]
         public virtual QuizModel QuizFinal { get; set; } 
 
 

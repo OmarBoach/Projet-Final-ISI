@@ -16,10 +16,9 @@ namespace Examino.Models.Entities
         public string path { get; set; }
 
 
-
         public int ChapterId { get; set; }
 
-        [ForeignKey("ChapterId")]
+
         public virtual Chapter chapter { get; set; }
 
     }

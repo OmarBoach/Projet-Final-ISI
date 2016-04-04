@@ -163,9 +163,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201604012001045_first migration.cs" />
-    <Compile Include="Migrations\201604012001045_first migration.Designer.cs">
-      <DependentUpon>201604012001045_first migration.cs</DependentUpon>
+    <Compile Include="Migrations\201604041436539_second migration.cs" />
+    <Compile Include="Migrations\201604041436539_second migration.Designer.cs">
+      <DependentUpon>201604041436539_second migration.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -2645,6 +2645,7 @@
     <Content Include="Scripts\bower_components\iron-form\bower.json" />
     <Content Include="Scripts\bower_components\iron-form\CONTRIBUTING.md" />
     <Content Include="Scripts\bower_components\iron-form\README.md" />
+    <Content Include="ClassDiagram1.cd" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bower_components\polymer\LICENSE.txt" />
     <Content Include="Scripts\bower_components\polymer\polymer-micro.html" />
@@ -2716,8 +2717,8 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201604012001045_first migration.resx">
-      <DependentUpon>201604012001045_first migration.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201604041436539_second migration.resx">
+      <DependentUpon>201604041436539_second migration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

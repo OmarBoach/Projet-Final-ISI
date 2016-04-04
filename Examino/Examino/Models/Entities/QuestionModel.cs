@@ -22,10 +22,11 @@ namespace Examino.Models.Entities
         public int QuizModelId { get; set; }
 
 
-        [ForeignKey("QuizModelId")]
+  
         public virtual QuizModel QuizModel { get; set; }
 
         public virtual ICollection<AnswerModel> AnswersModels { get; set; }
+
     }
 
     public enum QuestionType

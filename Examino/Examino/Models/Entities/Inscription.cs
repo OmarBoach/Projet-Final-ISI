@@ -14,10 +14,10 @@ namespace Examino.Models.Entities
 
         public int CourseId { get; set; }
 
-        [ForeignKey("CourseId")]
+ 
         public virtual Course Course { get; set; }
 
-        [ForeignKey("UserId")]
+      
         public virtual User User { get; set; }
 
         public DateTime InscriptionDate { get; set; }
